@@ -9,6 +9,3 @@ def home(request):
 
 def project(request):
 	return render(request, 'project.html', {})
-
-
-# Create your views here.
